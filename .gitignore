@@ -1,0 +1,7 @@
+*.md.bak
+.*.sw?
+.aspell/.aspell.en.prepl
+.aspell/.aspell.en.pws
+.gems
+docs/_site
+docs/Gemfile.lock

@@ -1,2 +1,5 @@
-*.markdown text eol=lf
-*.md       text eol=lf
+*.html         text eol=lf
+*.markdown     text eol=lf
+*.md           text eol=lf
+*.sh           text eol=lf
+.gitattributes text eol=lf

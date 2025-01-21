@@ -21,6 +21,7 @@ plugins:
 # to override the default setting.
 exclude:
    - "*.bak"
+   - "*.new"
    - Gemfile
    - Gemfile.lock
    - node_modules

@@ -1,4 +1,5 @@
 *.md.bak
+*.md.new
 .*.sw?
 .aspell/.aspell.en.prepl
 .aspell/.aspell.en.pws

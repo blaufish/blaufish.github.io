@@ -392,9 +392,9 @@ even in the presence of vulnerable frameworks and applications!
   application specific.
 * Limit functionality on objects that could accidentally become
   externally facing, such as `ClassLoader`.
-* Consider an **opt-in** whitelist feature instead of **expose
-  everything** plus whitelist in future frameworks.
+* Consider an **opt-in** whitelist feature, instead of **expose
+  everything** plus blacklist, in future frameworks.
   Do not let external data pollute all fields by default.
-  For java, maybe an `@WebExposed` annotation or similar could be
+  For Java, maybe an `@WebExposed` annotation or similar could be
   used to mark a setter as available to the frameworks.
 

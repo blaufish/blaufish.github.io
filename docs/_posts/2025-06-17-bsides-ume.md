@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BSides Ume 2025"
-date:   2025-06-17 14:17:00 +0200
+date:   2025-06-17 16:13:00 +0200
 categories: "security conference"
 ---
 

@@ -169,7 +169,7 @@ Today:
 * I carry two camera tripods of the same type.
 * I carry four video recorders of same type.
 
-So a strong focus on commonality and simplicty
+So a strong focus on commonality and simplicity
  to reduce the amount of different things to
  manage during live production.
 
@@ -193,7 +193,7 @@ my workflows:
 * `1080p` workflow with eventual `4K` delivery. \
   This reduces data sizes to `25%` compared to a native 4K delivery.
 * `p25` (25 frames per second, progressive) workflow. \
-  This reducezs data sizes to `41%` compared to a `p60` workflow.
+  This reduces data sizes to `41%` compared to a `p60` workflow.
 * `Apple ProRes 422 LT` codec for good enough optical quality while
   reducing file sizes and editing butter smooth.
 * Fast SD-cards
@@ -205,7 +205,7 @@ and makes editing videos easier.
 
 ### Simple workflows: Timecode
 
-Timecode / synchornized recording is important.
+Timecode / synchronized recording is important.
 
 First off, timecode can turn on recording on all slave
   recorders.
@@ -213,7 +213,7 @@ The less button pressing the better if you are a small team.
 
 Secondary, editing Multi-Camera video is so much easier
 if the clips are synchronized by timecode.
-You do not want to waste time on synchroninzing two days
+You do not want to waste time on synchronizing two days
 of multi-camera clips.
 
 ## Venue overview
@@ -290,8 +290,8 @@ The **Stream/Video crew** depends on the other teams for:
 **Venue** provides:
   * Projectors
   * HDMI-in near stage
-  * Audio/Video gear booth ablue to control projectors and tap signals.
-  * Internet (RJ45 wired twisted paair ethernet)
+  * Audio/Video gear booth control projectors and video tap (SDI/HDMI.
+  * Internet (RJ45 wired twisted pair Ethernet)
 
 **Sound/Stage Professionals** provides:
   * Manage live experience (stage, loudspeakers, lights, Wireless lavalier Mics, ...)
@@ -312,7 +312,7 @@ services;
 * Front of house has a HDMI input.
 * Back of house has a audio/video gear booth.
   * Receives HDMI from front of house.
-  * Able to simultanously control all projectors.
+  * Able to simultaneously control all projectors.
   * Able to tap HDMI/laptop image, audio to various destinations.
   * Able to tap HDMI/laptop to `SDI` and `HDMI` out.
 
@@ -321,7 +321,7 @@ The supported video tap from the audio/video gear booth is:
 * `2160p60` (`HDMI`)
 * `1080p60` (`HDMI`)
 
-> *We prefer a* **down-converter** inbetween us and the Venue gear.
+> *We prefer a* **down-converter** in-between us and the Venue gear.
 >
 > If your HDMI equipment supports `4K`/`2160p`
 > you seem to get this high resolution from the gear.
@@ -329,7 +329,7 @@ The supported video tap from the audio/video gear booth is:
 > Down-converter is great for getting `1080p25`.
 >
 > At least it is **not trivial** or obvious how to get other
-> resolutions from Venue equipemnt.
+> resolutions from Venue equipment.
 
 Basically this is the venue's main room before built out:
 
@@ -430,7 +430,7 @@ Impact:
 
 ## Live is hard
 
-Everythin live is a potential challenge.
+Everything live is a potential challenge.
 There is a reason no one happily screams:
 [We'll Do It LIVE!](https://www.youtube.com/watch?v=vu2NK5REvWM)
 
@@ -540,7 +540,7 @@ normal modes to virtual machines.
 Typically computers listens to HDMI receivers and if the receiver
   says _"I can only do 1080p25"_ virtually all computers obeys this.
 
-Some unsual configurations are much less well behaved,
+Some unusual configurations are much less well behaved,
   and may ignore what the receiver supports.
   For example:
   * Virtual Machines
@@ -679,7 +679,7 @@ Used for two purposes;
 
 **Decimator DMON-QUAD**.
 
-Used to generate a 1080p25 iamge with `75%` and `25%`
+Used to generate a 1080p25 image with `75%` and `25%`
   images at the same time.
 
 ``` plain
@@ -694,7 +694,7 @@ Used to generate a 1080p25 iamge with `75%` and `25%`
 
 This is what was shown most of the time during
 Security Fest 2025,
-with some overlays added ontop in the streaming
+with some overlays added on-top in the streaming
 software.
 
 ### Laptop
@@ -711,7 +711,7 @@ It's basically crumbling over operating system upgrades,
 
 **SDI**
 
-* Switched to SDI setup because Security Fest... 2023? had weird occational HDMI issues.
+* Switched to SDI setup because Security Fest... 2023? had weird occasional HDMI issues.
 * Honestly any cable seems to work when working with short
  `3G-SDI` connections. \
   Some of my cables are serious and custom cut. \
@@ -724,9 +724,9 @@ It's basically crumbling over operating system upgrades,
 * Cable very important; wrong cable breaks setup!!!
 * I **do not understand** at all what cables work and what does not. \
   Some very cheap looking cables **may work great**. \
-  Some expensive looksing cables **do not work**. \
+  Some expensive looking cables **do not work**. \
   At Security Fest 2023 I know I kept on using a cable
-    literally breaking appart
+    literally breaking apart
     because a great looking sturdy reserve cable
     introduced too much noise.
 * **Known good cable**:

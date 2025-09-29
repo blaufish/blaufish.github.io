@@ -40,7 +40,7 @@ Each cell have a value between `1` and `N` which is unique in all three sets.
 
 My goals for my Sudoku solver included:
 
-Arbitrary **character sets**, such as `1-9`, `0-9`, `0-9A-F`.
+Arbitrary **character sets**, such as `1-9`, `0-8`, `0-9A-F`.
 Or Unicode like `🐡💩🐙`.
 Or whatever.
 

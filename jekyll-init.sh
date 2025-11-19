@@ -37,7 +37,7 @@ verify_gem '^gem "github-pages",' docs/Gemfile
 if [[ ! -d "$BUNDLE_PATH" ]]
 then
 	mkdir -p -- "$BUNDLE_PATH"
-	( cd docs && bundle install )
+	( cd docs && bundle install --no-cache )
 fi
 
 if [[ ! -f .gitignore ]]
